@@ -4,6 +4,7 @@ def student_score():
  marks = int(input('Enter your score 1 : '))
  biology_grade = 68 
  grade = ""
+ maths_grade = 70
  if marks > 75 :
   grade = 'A'
  elif marks >= 70 and marks < 75:
@@ -21,5 +22,6 @@ def student_score():
  print('Student name:' + name )
  print('Subjects:' + 'Biology:' , biology_grade)
  print('Subject:' +  grade )
+ print('subject:' + maths_grade)
 
 student_score()
